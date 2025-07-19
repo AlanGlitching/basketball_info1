@@ -26,7 +26,7 @@ const TestForm: React.FC = () => {
     setErrorMessage('');
 
     try {
-      const { data, error } = await supabase
+      const { error } = await supabase
         .from('test_form')
         .insert([formData])
         .select();
