@@ -1,0 +1,89 @@
+.dashboard {
+  flex: 1;
+  padding: 2.5rem 3rem;
+  background: #16181c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lexend', 'Roboto', sans-serif;
+}
+.metricsSection {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.metricCard {
+  background: #23262b;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px #0002;
+  padding: 1.2rem 2rem;
+  min-width: 120px;
+  text-align: center;
+}
+.metricLabel {
+  color: #9cabba;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.metricValue {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.metricChange {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.up { color: #4caf50; }
+.down { color: #e53935; }
+.neutral { color: #9cabba; }
+.matchesSection {
+  margin-bottom: 2.5rem;
+}
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #9cabba;
+}
+.matchCard {
+  background: #23262b;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px #0001;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.opponent {
+  font-weight: 600;
+}
+.stats {
+  color: #9cabba;
+}
+.comparisonSection {
+  margin-bottom: 2rem;
+}
+.comparisonTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #23262b;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px #0001;
+}
+.comparisonTable th, .comparisonTable td {
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+.comparisonTable th {
+  background: #181b20;
+  color: #9cabba;
+}
+.comparisonTable tr:nth-child(even) {
+  background: #20232a;
+}
+.comparisonTable tr:nth-child(odd) {
+  background: #23262b;
+} 

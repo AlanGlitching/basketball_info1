@@ -28,6 +28,22 @@ npm run dev
 - `public/`：靜態資源（如 favicon、圖片等）
 - `vite.config.ts`：Vite 設定檔
 
+## 環境變數設定
+
+為了安全起見，Supabase 的 URL 和 API 金鑰已移至環境變數中。請按照以下步驟設定：
+
+1. 在專案根目錄建立 `.env` 檔案
+2. 在 `.env` 檔案中加入以下內容：
+
+```env
+VITE_SUPABASE_URL=your_supabase_url_here
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+```
+
+3. 將你的實際 Supabase URL 和 Anon Key 替換上述的佔位符
+
+**重要：** `.env` 檔案已被加入 `.gitignore`，不會被提交到版本控制系統中。
+
 ## 其他
 
 - 如需整合 Figma 設計稿，請將設計匯出後放入 `public/` 或 `src/assets/`。

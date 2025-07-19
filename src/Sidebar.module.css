@@ -1,0 +1,78 @@
+.sidebar {
+  width: 280px;
+  background: #181b20;
+  color: #fff;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 12px #0002;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #fff2;
+}
+.name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  font-family: 'Lexend', 'Roboto', sans-serif;
+}
+.role {
+  font-size: 1rem;
+  color: #9cabba;
+  margin-bottom: 0.5rem;
+}
+
+.navigation {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.navLink {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #9cabba;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.navLink:hover {
+  background: #2a2d31;
+  color: #fff;
+}
+
+.navLink:active {
+  background: #1a1d21;
+}
+
+.statsSection {
+  width: 100%;
+}
+.statsTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #9cabba;
+}
+.statRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #222;
+  font-size: 1rem;
+} 
